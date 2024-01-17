@@ -1,14 +1,11 @@
-import React from "react";
-import navSideBar from "../layouts/navSideBar.jsx";
-import styles from '../syles/wishlist.css';
+import React from 'react';
+import navSideBar from '../layouts/NavSideBar.jsx';
+import '../styles/wishlist.css';
 
-const pageWishlist = (props) => {
+export default function pageWishlist  () {
     return (
-        <>
-            <navSideBar/>
-            <h1>Wishlist</h1>
-        </>
+        <div className='root'>
+            <h1>Ici c'est la wishlist</h1>
+        </div>
     )
 }
-
-export default pageWishlist;

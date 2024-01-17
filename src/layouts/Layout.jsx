@@ -1,12 +1,12 @@
 import React from 'react'
-import navSideBar from './navSideBar.jsx';
-import { Outlet } from "react-router-dom";
+import NavSideBar from './NavSideBar.jsx';
+import { Outlet } from 'react-router-dom';
 
 export default function Layout() {
   return (
-    <>
-      <navSideBar />
-      <Outlet />
-    </>
+    <div className='menu'>
+      <NavSideBar/>
+      <Outlet/>
+    </div>
   );
 }

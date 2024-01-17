@@ -1,15 +1,11 @@
-import React from 'react';
-import { useState } from 'react';
+import navSideBar from './layouts/NavSideBar.jsx';
 import './App.css';
-import navSideBar from './layouts/navSideBar.jsx';
 
 function App() {
   return (
     <>
-      <navSideBar/>
-      <div>
-        <p>hello</p>
-      </div>
+      <NavSideBar/>
+      <h1>Hello c'est l'acceuil</h1>
     </>
   );
 }

@@ -1,16 +1,11 @@
 import React from 'react';
-import navSideBar from "../layouts/navSideBar.jsx";
-import styles from '../styles/drilldown.css';
-import PiechartDrillDown from '../components/pieDrillDown.jsx'
+import navSideBar from '../layouts/NavSideBar.jsx';
+import '../styles/pagedrilldown.css';
 
-const pageDrilldown = (props) => {
+export default function pageDrilldown () {
   return (
-    <>
-      <navSideBar/>
-      <h1>Drill Down</h1>
-      <PiechartDrillDown/>
-    </>
+    <div className='root'>
+      <h1>Ici c'est le drilldown</h1>
+    </div>
   )
 }
-
-export default pageDrilldown;

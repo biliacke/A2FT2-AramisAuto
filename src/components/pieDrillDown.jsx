@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 import Dropdown from 'react-dropdown-select';
 import data from '../data/snippetSize2000AramisPark.json';
 
-const PiechartDrillDown = () => {
+export default function PiechartDrillDown () {
   const [selectedKey, setSelectedKey] = useState(null);
   const [drilldownData, setDrilldownData] = useState(data);
   const [drilldownPath, setDrilldownPath] = useState([]);
@@ -61,5 +61,3 @@ const PiechartDrillDown = () => {
     </div>
   );
 };
-
-export default PiechartDrillDown;

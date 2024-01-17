@@ -1,0 +1,24 @@
+.menu {
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    background-color:#161A35;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    color:#4152A4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
